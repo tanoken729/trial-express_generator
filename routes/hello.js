@@ -3,6 +3,7 @@ const router = express.Router();
 
 const sqlite3 = require("sqlite3"); // 追加
 
+//appjsで呼び出すのではなく各ルーティングファイルに必要に応じて呼び出す
 const { check, validationResult } = require("express-validator");
 
 // データベースオブジェクトの取得
